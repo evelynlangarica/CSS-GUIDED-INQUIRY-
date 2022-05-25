@@ -1,0 +1,41 @@
+body {
+    color: black;
+    text-align: center;
+    background-color: beige;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 500px 500px;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-gap: 10px;
+
+
+
+}
+
+#content div {
+    background: rgb(129, 111, 189);
+    padding: 30px;
+}
+
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: center;
+
+
+
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: auto;
+    padding: 10px;
+
+
+}

@@ -1,0 +1,22 @@
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    border: 3px solid black;
+}
+
+.container div:nth-child(even) {
+    padding: 20px;
+    background-color: white;
+}
+
+.container div:nth-child(odd) {
+    padding: 20px;
+    background-color: red;
+}
+
+.flag {
+    width: 320px;
+    position: absolute;
+}
